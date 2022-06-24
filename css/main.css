@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Verdana:400,700');
+@import url('https://fonts.googleapis.com/css?family=Cambria:400,700');
+@font-face {
+    font-family: Thomiuwu;
+    src: url('../src/font/LuckyLady.otf');
+}
+
+
+*{
+    box-sizing: border-box;
+  }
+
+
+.centrado{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+}
+.divisor{
+    height: 10px;
+}
+texto{
+    font-size: 2em;
+    font-family: Verdana;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    background-color: #4b4b4b2d;
+
+
+}
+header{
+    background: url(https://radioestarinterativa.com.br/wp-content/uploads/2020/05/bg-footer-r1.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+    width: 100%;
+}
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswal', sans-serif;
+
+    background-color: rgb(29, 25, 25);
+    background-repeat:repeat-y;
+    background-repeat:repeat-x;
+
+}
+
+
+
+
+ ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+  }
+  li {float: right;}
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover { background-color: #111;}
+  li a:active {background-color: #4CAF50;}
+
+
+#Logo{
+    display: flex;
+    overflow: hidden;
+    border-radius: 50%;
+    z-index: 10;
+    height: 300px;
+    width: 300px;
+    max-height: 300px;
+    border: 10px solid #21212c9d;
+}#Text-Logo{
+    margin-left: 42%;
+    margin-bottom: 50px;
+    font-size: 5em;
+    color: aliceblue;
+    justify-content: center;
+    max-width: max-content;
+    backdrop-filter: blur(50px);
+    background: rgba(51, 51, 51, 0.13);
+    border: 1px solid rgba(189, 189, 189, 0.11);
+}
+
+
+#Home{
+    padding: 50px;
+    background: rgb(255, 179, 39);
+    height: 1080px;
+}#Home-Right{
+    position: relative;
+    background: rgb(233, 233, 233);
+    height: 500px;
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 200px;
+}
+#About{
+    background: rgb(199, 94, 94);
+    height: 1080px;
+}
+#Blog{
+    background: rgb(243, 101, 248);
+    height: 1080px;
+}
+#Portfolio{
+    background: rgb(57, 194, 130);
+    height: 1080px;
+}
+#Contact{
+    background: rgb(250, 216, 106);
+    height: 1080px;
+}
